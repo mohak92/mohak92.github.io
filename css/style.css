@@ -369,6 +369,16 @@ body {
 	background: url(../img/loader.gif) center center no-repeat;
 }
 
+aside {
+	position: relative;
+	background-color: #e74c3c;
+	text-align: center;
+	color: #fff;
+	width: 100%;
+	font-size: 14px;
+	float: left;
+}
+
 
 
 
