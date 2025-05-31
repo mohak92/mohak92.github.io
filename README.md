@@ -24,8 +24,8 @@ A modern, responsive portfolio website built with Next.js, Tailwind CSS, and Con
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/portfolio.git
-cd portfolio
+git clone https://github.com/mohak92/mohak92.github.io.git
+cd mohak92.github.io
 ```
 
 2. Install dependencies:
@@ -43,50 +43,6 @@ CONTENTFUL_ACCESS_TOKEN=your_access_token_here
 ```bash
 yarn dev
 ```
-
-5. Open [http://localhost:3000](http://localhost:3000) in your browser.
-
-## Contentful Setup
-
-1. Create a Contentful account at [https://www.contentful.com](https://www.contentful.com)
-2. Create the following content models:
-
-### Profile
-- name (Short text)
-- title (Short text)
-- bio (Long text)
-- image (Media)
-- githubUrl (Short text)
-- linkedinUrl (Short text)
-- leetcodeUrl (Short text)
-
-### Project
-- title (Short text)
-- description (Long text)
-- image (Media)
-- technologies (Short text, List)
-- githubUrl (Short text)
-- appStoreUrl (Short text)
-- youtubeUrl (Short text)
-
-### Skill Category
-- title (Short text)
-- skills (Short text, List)
-
-## Customization
-
-1. Update the profile information in Contentful
-2. Add your projects with screenshots and links
-3. Customize the color scheme in `tailwind.config.js`
-4. Update social media links in the Header and Footer components
-
-## Deployment
-
-The site can be deployed to various platforms. Here are some popular options:
-
-- Vercel (Recommended)
-- Netlify
-- GitHub Pages
 
 ## License
 
