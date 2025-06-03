@@ -1,4 +1,5 @@
-import { FaGithub, FaLinkedin, FaCode } from 'react-icons/fa';
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
+import { SiLeetcode } from "react-icons/si";
 
 const Footer = () => {
   return (
@@ -30,7 +31,7 @@ const Footer = () => {
                 rel="noopener noreferrer"
                 className="text-gray-300 hover:text-white transition-colors"
               >
-                <FaCode className="h-6 w-6" />
+                <SiLeetcode className="h-6 w-6" />
               </a>
             </div>
           </div>
