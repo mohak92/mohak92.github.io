@@ -33,13 +33,6 @@ const Hero = () => {
               >
                 View Projects
               </a>
-              <a
-                href="#contact"
-                onClick={(e) => handleNavClick(e, 'contact')}
-                className="border border-gray-300 dark:border-gray-600 text-gray-700 dark:text-gray-300 px-6 py-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors"
-              >
-                Contact Me
-              </a>
             </div>
           </motion.div>
 
