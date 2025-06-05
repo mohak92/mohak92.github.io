@@ -5,21 +5,68 @@ import { FaGithub, FaAppStore, FaYoutube } from 'react-icons/fa';
 
 const projects = [
   {
-    title: 'Project Name 1',
-    description: 'A beautiful iOS app that helps users accomplish specific tasks with an intuitive interface.',
-    image: 'https://placehold.co/400x192/e2e8f0/1e293b?text=Project+1',
-    technologies: ['Swift', 'SwiftUI', 'Core Data'],
+    title: 'Local LLMs',
+    description: 'A iOS app that helps users with queries and specific tasks with an intuitive interface using an on-device LLM.',
+    image: 'https://placehold.co/400x192/e2e8f0/1e293b?text=Coming+Soon',
+    technologies: ['Swift', 'SwiftUI', 'LLM', 'MLX Swift', 'Core ML', 'Llama CPP', 'Hugging Face'],
     github: 'https://github.com/yourusername/project1',
     appStore: 'https://apps.apple.com/app/id123456789',
     youtube: 'https://youtube.com/watch?v=demo1'
   },
   {
-    title: 'Project Name 2',
-    description: 'An innovative iOS application focusing on user experience and performance.',
-    image: 'https://placehold.co/400x192/e2e8f0/1e293b?text=Project+2',
-    technologies: ['UIKit', 'Core Animation', 'MapKit'],
-    github: 'https://github.com/yourusername/project2',
-    appStore: 'https://apps.apple.com/app/id987654321',
+    title: 'Game Engine',
+    description: "A lightweight and modular Metal-based rendering engine written in Swift. Designed for high-performance graphics rendering on iOS, macOS, and visionOS using Apple's Metal framework.",
+    image: 'https://placehold.co/400x192/e2e8f0/1e293b?text=Coming+Soon',
+    technologies: ['Swift', 'C++', 'Metal', 'MetalKit', 'Metal Shading Language'],
+    github: 'https://github.com/yourusername/project1',
+    youtube: 'https://youtube.com/watch?v=demo2'
+  },
+  {
+    title: 'AR Body Tracking',
+    description: "An iOS application that uses ARKit's Motion Capture technology to track human skeleton joints in real time using the device camera.",
+    image: 'https://placehold.co/400x192/e2e8f0/1e293b?text=Coming+Soon',
+    technologies: ['SwiftUI', 'UIKit', 'ARKit', 'RealityKit'],
+    github: 'https://github.com/mohak92/ar-body-tracking-ios',
+    youtube: 'https://youtube.com/watch?v=demo2'
+  },
+  {
+    title: 'Object Detection',
+    description: "An iOS application that uses ARKit's Motion Capture technology to track human skeleton joints in real time using the device camera.",
+    image: 'https://placehold.co/400x192/e2e8f0/1e293b?text=Coming+Soon',
+    technologies: ['SwiftUI', 'UIKit', 'Core ML', 'Core ML Tools'],
+    github: 'https://github.com/yourusername/project1',
+    youtube: 'https://youtube.com/watch?v=demo2'
+  },
+  {
+    title: 'Dog Breed Classifier',
+    description: "An iOS application that uses ARKit's Motion Capture technology to track human skeleton joints in real time using the device camera.",
+    image: 'https://placehold.co/400x192/e2e8f0/1e293b?text=Coming+Soon',
+    technologies: ['SwiftUI', 'UIKit', 'Core ML', 'Create ML'],
+    github: 'https://github.com/yourusername/project1',
+    youtube: 'https://youtube.com/watch?v=demo2'
+  },
+  {
+    title: 'Meta Messenger Clone',
+    description: "An iOS application that uses ARKit's Motion Capture technology to track human skeleton joints in real time using the device camera.",
+    image: 'https://placehold.co/400x192/e2e8f0/1e293b?text=Coming+Soon',
+    technologies: ['SwiftUI', 'UIKit', 'Firebase'],
+    github: 'https://github.com/yourusername/project1',
+    youtube: 'https://youtube.com/watch?v=demo2'
+  },
+  {
+    title: 'Airbnb Clone',
+    description: "An iOS application that uses ARKit's Motion Capture technology to track human skeleton joints in real time using the device camera.",
+    image: 'https://placehold.co/400x192/e2e8f0/1e293b?text=Coming+Soon',
+    technologies: ['SwiftUI', 'UIKit', 'MapKit'],
+    github: 'https://github.com/yourusername/project1',
+    youtube: 'https://youtube.com/watch?v=demo2'
+  },
+  {
+    title: 'Uber Clone',
+    description: "An iOS application that uses ARKit's Motion Capture technology to track human skeleton joints in real time using the device camera.",
+    image: 'https://placehold.co/400x192/e2e8f0/1e293b?text=Coming+Soon',
+    technologies: ['SwiftUI', 'UIKit', 'MapKit', 'Firebase'],
+    github: 'https://github.com/yourusername/project1',
     youtube: 'https://youtube.com/watch?v=demo2'
   },
   // Add more projects as needed
@@ -89,14 +136,14 @@ const Projects = () => {
                     >
                       <FaGithub className="h-6 w-6" />
                     </a>
-                    <a
+                    {project.appStore && <a
                       href={project.appStore}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-gray-600 hover:text-gray-900"
                     >
                       <FaAppStore className="h-6 w-6" />
-                    </a>
+                    </a>}
                     <a
                       href={project.youtube}
                       target="_blank"
