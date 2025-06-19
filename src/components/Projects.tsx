@@ -10,6 +10,7 @@ const projects = [
     image: '/images/local-llm.png',
     technologies: ['Swift', 'SwiftUI', 'LLM', 'MLX Swift', 'Core ML', 'Llama CPP', 'Hugging Face'],
     github: 'https://github.com/yourusername/project1',
+    appStore: 'https://apps.apple.com/app/id123456789',
     youtube: 'https://youtube.com/watch?v=demo1'
   },
   {
