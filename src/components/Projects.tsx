@@ -7,24 +7,23 @@ const projects = [
   {
     title: 'Local LLMs',
     description: 'A iOS app that helps users with queries and specific tasks with an intuitive interface using an on-device LLM.',
-    image: 'https://placehold.co/400x192/e2e8f0/1e293b?text=Coming+Soon',
+    image: '/images/local-llm.png',
     technologies: ['Swift', 'SwiftUI', 'LLM', 'MLX Swift', 'Core ML', 'Llama CPP', 'Hugging Face'],
     github: 'https://github.com/yourusername/project1',
-    appStore: 'https://apps.apple.com/app/id123456789',
     youtube: 'https://youtube.com/watch?v=demo1'
   },
   {
     title: 'Game Engine',
     description: "A lightweight and modular Metal-based rendering engine written in Swift. Designed for high-performance graphics rendering on iOS, macOS, and visionOS using Apple's Metal framework.",
-    image: 'https://placehold.co/400x192/e2e8f0/1e293b?text=Coming+Soon',
+    image: '/images/metal-og.jpg',
     technologies: ['Swift', 'C++', 'Metal', 'MetalKit', 'Metal Shading Language'],
-    github: 'https://github.com/yourusername/project1',
+    github: 'https://github.com/mohak92/MetalRenderer',
     youtube: 'https://youtube.com/watch?v=demo2'
   },
   {
     title: 'AR Body Tracking',
     description: "An iOS application that uses ARKit's Motion Capture technology to track human skeleton joints in real time using the device camera.",
-    image: 'https://placehold.co/400x192/e2e8f0/1e293b?text=Coming+Soon',
+    image: '/images/ar-body-tracking.jpeg',
     technologies: ['SwiftUI', 'UIKit', 'ARKit', 'RealityKit'],
     github: 'https://github.com/mohak92/ar-body-tracking-ios',
     youtube: 'https://youtube.com/watch?v=demo2'
@@ -32,7 +31,7 @@ const projects = [
   {
     title: 'Object Detection',
     description: "An iOS application that uses ARKit's Motion Capture technology to track human skeleton joints in real time using the device camera.",
-    image: 'https://placehold.co/400x192/e2e8f0/1e293b?text=Coming+Soon',
+    image: '/images/object-detection.jpg',
     technologies: ['SwiftUI', 'UIKit', 'Core ML', 'Core ML Tools'],
     github: 'https://github.com/yourusername/project1',
     youtube: 'https://youtube.com/watch?v=demo2'
@@ -48,7 +47,7 @@ const projects = [
   {
     title: 'Meta Messenger Clone',
     description: "An iOS application that uses ARKit's Motion Capture technology to track human skeleton joints in real time using the device camera.",
-    image: 'https://placehold.co/400x192/e2e8f0/1e293b?text=Coming+Soon',
+    image: '/images/messenger.webp',
     technologies: ['SwiftUI', 'UIKit', 'Firebase'],
     github: 'https://github.com/yourusername/project1',
     youtube: 'https://youtube.com/watch?v=demo2'
@@ -56,7 +55,7 @@ const projects = [
   {
     title: 'Airbnb Clone',
     description: "An iOS application that uses ARKit's Motion Capture technology to track human skeleton joints in real time using the device camera.",
-    image: 'https://placehold.co/400x192/e2e8f0/1e293b?text=Coming+Soon',
+    image: '/images/airbnb.jpg',
     technologies: ['SwiftUI', 'UIKit', 'MapKit'],
     github: 'https://github.com/yourusername/project1',
     youtube: 'https://youtube.com/watch?v=demo2'
