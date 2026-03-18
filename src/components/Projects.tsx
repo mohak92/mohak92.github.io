@@ -3,7 +3,17 @@ import Image from 'next/image';
 import { motion } from 'framer-motion';
 import { FaGithub, FaAppStore, FaYoutube } from 'react-icons/fa';
 
-const projects = [
+type Project = {
+  title: string;
+  description: string;
+  image: string;
+  technologies: string[];
+  github: string;
+  youtube: string;
+  appStore?: string;
+};
+
+const projects: Project[] = [
   {
     title: 'Local LLMs',
     description: 'A iOS app that helps users with queries and specific tasks with an intuitive interface using an on-device LLM.',
@@ -33,7 +43,7 @@ const projects = [
     description: "An iOS application that uses ARKit's Motion Capture technology to track human skeleton joints in real time using the device camera.",
     image: '/images/object-detection.jpg',
     technologies: ['SwiftUI', 'UIKit', 'Core ML', 'Core ML Tools'],
-    github: 'https://github.com/yourusername/project1',
+    github: 'https://github.com/mohak92/object-detection-iOS',
     youtube: 'https://youtube.com/watch?v=demo2'
   },
   {
