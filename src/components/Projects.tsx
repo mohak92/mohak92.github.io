@@ -135,7 +135,7 @@ const Projects = () => {
                     >
                       <FaGithub className="h-6 w-6" />
                     </a>
-                    {project.appStore && <a
+                    {project?.appStore && <a
                       href={project.appStore}
                       target="_blank"
                       rel="noopener noreferrer"
