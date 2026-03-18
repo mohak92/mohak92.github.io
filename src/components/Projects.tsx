@@ -9,8 +9,7 @@ const projects = [
     description: 'A iOS app that helps users with queries and specific tasks with an intuitive interface using an on-device LLM.',
     image: '/images/local-llm.png',
     technologies: ['Swift', 'SwiftUI', 'LLM', 'MLX Swift', 'Core ML', 'Llama CPP', 'Hugging Face'],
-    github: 'https://github.com/yourusername/project1',
-    appStore: 'https://apps.apple.com/app/id123456789',
+    github: 'https://github.com/mohak92/private-llm-ios',
     youtube: 'https://youtube.com/watch?v=demo1'
   },
   {
