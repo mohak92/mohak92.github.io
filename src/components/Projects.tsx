@@ -49,7 +49,7 @@ const projects: Project[] = [
   {
     title: 'Dog Breed Classifier',
     description: "An iOS application that uses ARKit's Motion Capture technology to track human skeleton joints in real time using the device camera.",
-    image: 'https://placehold.co/400x192/e2e8f0/1e293b?text=Coming+Soon',
+    image: '/images/dog-breed-classifier.jpg',
     technologies: ['SwiftUI', 'UIKit', 'Core ML', 'Create ML'],
     github: 'https://github.com/mohak92/dog-breed-image-classification-iOS',
     youtube: 'https://youtube.com/watch?v=demo2'
